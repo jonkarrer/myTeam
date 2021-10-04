@@ -1,0 +1,11 @@
+button {
+  background: none;
+  border-radius: 24px;
+  border: white solid 2px;
+  font-size: 18px;
+}
+button.dark {
+  background: white;
+  color: var(--sacramento-green);
+  font-size: 18px;
+}

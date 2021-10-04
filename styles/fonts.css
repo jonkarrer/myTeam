@@ -1,0 +1,44 @@
+* {
+  font-family: "Livvic", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 56px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+}
+p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+@media (min-width: 1028px) {
+  h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  p.small {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+  }
+}
