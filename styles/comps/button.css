@@ -3,7 +3,11 @@ button {
   border-radius: 24px;
   border: white solid 2px;
   font-size: 18px;
+  height: 48px;
+  width: 159px;
+  color: white;
 }
+
 button.dark {
   background: white;
   color: var(--sacramento-green);

@@ -3,18 +3,48 @@ header.mobile {
   align-items: center;
   height: 96px;
   position: relative;
+  color: white;
 }
 header.mobile nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
 
   width: 255px;
   height: 100vh;
 
+  padding: 140px 40px;
+  display: grid;
+  gap: 40px;
+  place-content: start;
+
   background: var(--police-blue);
+
+  transform: translateX(100%);
 }
+
 header.mobile a {
   text-decoration: none;
-  color: white;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+header.mobile .close_nav {
+  position: absolute;
+  top: 56px;
+  right: 25px;
+  width: 18px;
+}
+
+button:hover {
+  color: var(--police-blue);
+  background: white;
+}
+
+header.mobile .bg-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateX(50%);
 }
