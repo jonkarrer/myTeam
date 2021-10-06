@@ -1,0 +1,43 @@
+section.features {
+  background: var(--sacramento-green);
+  color: white;
+  padding: 60px 24px;
+  position: relative;
+  overflow: hidden;
+}
+section.features .wrapper {
+  display: grid;
+  gap: 20px;
+}
+section.features .headline {
+  width: 240px;
+  display: grid;
+  gap: 40px;
+}
+section.features .line {
+  width: 50px;
+  height: 4px;
+  background: var(--light-coral);
+}
+section.features .bg-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(50%);
+}
+
+section.features .feats {
+  display: grid;
+  gap: 50px;
+  padding-top: 50px;
+}
+
+section.features article {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 8px;
+}
+section.features h3 {
+  color: var(--light-coral);
+}

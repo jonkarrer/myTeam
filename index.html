@@ -22,55 +22,78 @@
     <link rel="stylesheet" href="../styles/Home/index.css" />
     <title>Frontend Mentor | MyTeam - Homepage</title>
   </head>
-  <body>
-    <header class="mobile">
-      <img src="./assets/logo.svg" alt="logo" />
+  <header class="mobile">
+    <img class="logo" src="./assets/logo.svg" alt="logo" />
+    <img
+      class="hamburger"
+      src="./assets/icon-hamburger.svg"
+      alt="hamburger icon"
+    />
+    <nav>
+      <a href="./index.html">home</a>
+      <a href="./pages/about.html">about</a>
+      <button><a href="./pages/contact.html">contact us</a></button>
+      <img src="./assets/icon-close.svg" id="close_nav" class="close_nav" />
       <img
-        class="hamburger"
-        src="./assets/icon-hamburger.svg"
-        alt="hamburger icon"
+        class="bg-image"
+        src="./assets/bg-pattern-about-1-mobile-nav-1.svg"
+        alt="background image"
       />
-      <nav>
-        <a href="./index.html">home</a>
-        <a href="./pages/about.html">about</a>
-        <button><a href="./pages/contact.html">contact us</a></button>
-        <img src="./assets/icon-close.svg" id="close_nav" class="close_nav" />
-        <img
-          class="bg-image"
-          src="./assets/bg-pattern-about-1-mobile-nav-1.svg"
-          alt="background image"
-        />
-      </nav>
-    </header>
-    <section>
-      <h1>Find the best talent</h1>
+    </nav>
+  </header>
+  <body>
+    <section class="splash">
+      <div class="wrapper">
+        <h1>Find the best <span>talent</span></h1>
 
-      <p>
-        Finding the right people and building high performing teams can be hard.
-        Most companies aren’t tapping into the abundance of global talent. We’re
-        about to change that.
-      </p>
+        <p>
+          Finding the right people and building high performing teams can be
+          hard. Most companies aren’t tapping into the abundance of global
+          talent. We’re about to change that.
+        </p>
+      </div>
+      <img src="./assets/bg-pattern-home-2.svg" alt="section one bg image" />
     </section>
 
-    <section>
-      <h2>Build & manage distributed teams like no one else.</h2>
+    <section class="features">
+      <div class="wrapper">
+        <img
+          class="bg-image"
+          src="./assets/bg-pattern-home-3.svg"
+          alt="bg image"
+        />
+        <div class="headline">
+          <div class="line"></div>
+          <h2>Build & manage distributed teams like no one else.</h2>
+        </div>
 
-      <h4>Experienced Individuals</h4>
-      <p>
-        Our network is made up of highly experienced professionals who are
-        passionate about what they do.
-      </p>
-      <h4>Easy to Implement</h4>
-
-      <p>
-        Our processes have been refined over years of implementation meaning our
-        teams always deliver.
-      </p>
-      <h4>Enhanced Productivity</h4>
-      <p>
-        Our customized platform with in-built analytics helps you manage your
-        distributed teams.
-      </p>
+        <div class="feats">
+          <article>
+            <img src="./assets/icon-person.svg" alt="person icon" />
+            <h3>Experienced Individuals</h3>
+            <p>
+              Our network is made up of highly experienced professionals who are
+              passionate about what they do.
+            </p>
+          </article>
+          <article>
+            <img src="./assets/icon-cog.svg" alt="cog icon" />
+            <h3>Easy to Implement</h3>
+            <p>
+              Our processes have been refined over years of implementation
+              meaning our teams always deliver.
+            </p>
+          </article>
+          <article>
+            <img src="./assets/icon-chart.svg" alt="chart icon" />
+            <h3>Enhanced Productivity</h3>
+            <p>
+              Our customized platform with in-built analytics helps you manage
+              your distributed teams.
+            </p>
+          </article>
+        </div>
+      </div>
     </section>
 
     <section>

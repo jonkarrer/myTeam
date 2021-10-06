@@ -1,6 +1,6 @@
 @import url("./fonts.css");
 @import url("./comps/button.css");
-@import url("./comps/mobile_nav.css");
+@import url("./comps/mobile_header.css");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,4 +19,17 @@
 
 html {
   background: var(--midnight-green);
+}
+
+body {
+  position: relative;
+}
+
+section {
+  padding: 0 24px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
