@@ -2,25 +2,22 @@ header.mobile {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 96px;
   width: 100%;
+
+  margin-top: 50px;
   padding: 0 24px;
-  position: fixed;
-  top: 0;
   color: white;
   z-index: 80;
 }
-
 header.mobile .logo {
   width: 128px;
 }
-
 header.mobile nav {
   position: fixed;
   top: 0;
-  right: 0;
+  right: -30px;
 
-  width: 255px;
+  width: 290px;
   height: 100vh;
 
   padding: 140px 40px;
@@ -31,28 +28,26 @@ header.mobile nav {
   background: var(--police-blue);
 
   transform: translateX(100%);
-}
 
+  z-index: 100;
+}
 header.mobile a {
   font-size: 18px;
   font-weight: 600;
 }
-
 header.mobile .close_nav {
   position: absolute;
   top: 56px;
-  right: 25px;
+  right: 55px;
   width: 18px;
 }
-
 button:hover {
   color: var(--police-blue);
   background: white;
 }
-
 header.mobile .bg-image {
   position: absolute;
-  right: 0;
+  right: 20px;
   bottom: 0;
   transform: translateX(50%);
 }

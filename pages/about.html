@@ -1,74 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | myteam website challenge - About</title>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-  home
-  about
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  contact us
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/About/index.css" />
 
+    <title>Frontend Mentor | About</title>
+  </head>
+  <body>
+    <header class="mobile">
+      <img class="logo" src="../assets/logo.svg" alt="logo" />
+      <img
+        class="hamburger"
+        src="../assets/icon-hamburger.svg"
+        alt="hamburger icon"
+      />
+      <nav>
+        <a href="./index.html">home</a>
+        <a href="./pages/about.html">about</a>
+        <button><a href="./pages/contact.html">contact us</a></button>
+        <img src="../assets/icon-close.svg" id="close_nav" class="close_nav" />
+        <img
+          class="bg-image"
+          src="../assets/bg-pattern-about-1-mobile-nav-1.svg"
+          alt="background image"
+        />
+      </nav>
+    </header>
 
+    <section class="splash">
+      <article>
+        <h1>About</h1>
+        <p>
+          We help companies build dynamic teams made up of top global talent.
+          Using our network of passionate professionals we drive innovation and
+          deliver incredible outcomes. Talented, diverse teams shape the best
+          products and experiences. We’ll bring those teams to you.
+        </p>
+      </article>
+      <img src="../assets/bg-pattern-about-1-mobile-nav-1.svg" alt="bg-image" />
+    </section>
 
-  About
+    <section class="directors">
+      <img
+        class="bg-img-one"
+        src="../assets/bg-pattern-about-2-contact-1.svg"
+        alt="bg image one"
+      />
+      <div class="wrapper">
+        <h2>Meet the directors</h2>
 
-  We help companies build dynamic teams made up of top global talent. 
-  Using our network of passionate professionals we drive innovation 
-  and deliver incredible outcomes. Talented, diverse teams shape the 
-  best products and experiences. We’ll bring those teams to you.
+        <article>
+          <img class="avatar" src="../assets/avatar-nikita.jpg" alt="avatar" />
+          <p>
+            “It always amazes me how much talent there is in every corner of the
+            globe.”
+          </p>
+          <h3>Nikita Marks</h3>
+          <i>Founder & CEO</i>
+          <span id="change-article-button" class="plus-circle">
+            <img src="../assets/icon-cross.svg" alt="cross" />
+          </span>
+        </article>
 
+        <article>
+          <img
+            class="avatar"
+            src="../assets/avatar-christian.jpg"
+            alt="avatar"
+          />
+          <p>
+            “Distributed teams required unique processes. You need to approach
+            work in a new way.”
+          </p>
+          <h3>Cristian Duncan</h3>
+          <i>Co-founder & COO</i>
+        </article>
 
+        <article>
+          <img class="avatar" src="../assets/avatar-cruz.jpg" alt="avatar" />
+          <p>
+            “Technology is at the forefront of enabling distributed teams.
+            That's where we come in.”
+          </p>
+          <h3>Cruz Hamer</h3>
+          <i>Co-founder & CTO</i>
+        </article>
 
-  Meet the directors
+        <article>
+          <img class="avatar" src="../assets/avatar-drake.jpg" alt="avatar" />
+          <p>
+            “Hiring similar people from similar backgrounds is a surefire way to
+            stunt innovation.”
+          </p>
+          <h3>Drake Heaton</h3>
+          <i>Business Development Lead</i>
+        </article>
 
-  “It always amazes me how much talent there is in every corner of the globe.”
-  Nikita Marks
-  Founder & CEO
+        <article>
+          <img class="avatar" src="../assets/avatar-griffin.jpg" alt="avatar" />
+          <p>
+            “Unique perspectives shape unique products, which is what you need
+            to survive these days.”
+          </p>
+          <h3>Griffin Wise</h3>
+          <i>Lead Marketing</i>
+        </article>
 
-  “Distributed teams required unique processes. You need to approach work in a new way.”
-  Cristian Duncan
-  Co-founder & COO
+        <article>
+          <img class="avatar" src="../assets/avatar-aden.jpg" alt="avatar" />
+          <p>
+            “Empowered teams create truly amazing products. Set the north star
+            and let them follow it.”
+          </p>
+          <h3>Aden Allan</h3>
+          <i>Head of Talent</i>
+        </article>
+      </div>
+    </section>
 
-  “Technology is at the forefront of enabling distributed teams. That's where we come in.”
-  Cruz Hamer
-  Co-founder & CTO
-
-  “Hiring similar people from similar backgrounds is a surefire way to stunt innovation.”
-  Drake Heaton
-  Business Development Lead
-
-  “Unique perspectives shape unique products, which is what you need to survive these days.”
-  Griffin Wise
-  Lead Marketing
-
-  “Empowered teams create truly amazing products. Set the north star and let them follow it.”
-  Aden Allan
-  Head of Talent
-
-
-
-  Ready to get started?
-
-  contact us
-
-
-
-  home
-  about
-
-  987  Hillcrest Lane
-  Irvine, CA
-  California 92714
-  Call Us : 949-833-7432
-
-  Copyright 2020. All Rights Reserved
-  
-</body>
+    <footer>
+      <img class="logo" src="../assets/logo.svg" alt="logo" />
+      <nav>
+        <a href="#section.splash">home</a>
+        <a href="./pages/about.html">about</a>
+      </nav>
+      <div class="addy">
+        <p>987 Hillcrest Lane</p>
+        <p>Irvine, CA</p>
+        <p>California 92714</p>
+        <p>Call Us : 949-833-7432</p>
+      </div>
+      <div class="copyright">
+        <div class="media-wrapper">
+          <img src="../assets/icon-facebook.svg" alt="facebook icon" />
+          <img src="../assets/icon-pinterest.svg" alt="pintrest icon" />
+          <img src="../assets/icon-twitter.svg" alt="twitter icon" />
+        </div>
+        <p>Copyright 2020. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="../index.js"></script>
+  </body>
 </html>

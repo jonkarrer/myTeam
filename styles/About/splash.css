@@ -1,0 +1,17 @@
+section.splash {
+  color: white;
+  padding: 120px 24px;
+  position: relative;
+  overflow: hidden;
+}
+section.splash article {
+  display: grid;
+  gap: 15px;
+  text-align: center;
+}
+section.splash img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+}

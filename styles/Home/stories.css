@@ -8,6 +8,7 @@ section.stories {
 }
 section.stories .wrapper {
   display: grid;
+  gap: 30px;
 }
 section.stories .bg-image-one {
   position: absolute;
@@ -24,7 +25,7 @@ section.stories .headline span {
 }
 section.stories .articles-container {
   display: grid;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 section.stories article {
   position: relative;
