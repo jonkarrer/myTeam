@@ -8,7 +8,6 @@ section.stories {
 }
 section.stories .wrapper {
   display: grid;
-  gap: 45px;
 }
 section.stories .bg-image-one {
   position: absolute;
@@ -22,6 +21,10 @@ section.stories .bg-image-two {
 }
 section.stories .headline span {
   color: var(--rapture-blue);
+}
+section.stories .articles-container {
+  display: grid;
+  margin-top: 40px;
 }
 section.stories article {
   position: relative;
@@ -48,7 +51,7 @@ section.stories p {
 section.stories .profile-container {
   display: grid;
   place-items: center;
-  gap: 5px;
+  gap: 2px;
 }
 section.stories .avatar {
   border-radius: 50%;
