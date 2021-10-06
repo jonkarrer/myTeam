@@ -1,5 +1,5 @@
 section.directors {
-  padding: 100px 24px;
+  padding: 120px 24px;
   position: relative;
   overflow: hidden;
   background: var(--jungle-green);
@@ -16,6 +16,11 @@ section.directors .bg-img-one {
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
+}
+section.directors .bg-img-two {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 section.directors article {
   height: 270px;

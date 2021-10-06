@@ -2,6 +2,7 @@
 @import url("./comps/button.css");
 @import url("./comps/mobile_header.css");
 @import url("./comps/footer.css");
+@import url("./comps/get-started.css");
 * {
   box-sizing: border-box;
   margin: 0;

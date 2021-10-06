@@ -1,12 +1,13 @@
 section.get-started {
   background: var(--light-coral);
-  height: 375px;
+  height: 302px;
   color: var(--sacramento-green);
   display: grid;
   place-content: center;
   text-align: center;
-  gap: 30px;
+  gap: 20px;
   position: relative;
+  overflow: hidden;
 }
 section.get-started button {
   border: var(--sacramento-green) solid 2px;
@@ -15,6 +16,6 @@ section.get-started button {
 }
 section.get-started img {
   position: absolute;
-  bottom: 0;
+  bottom: -25px;
   left: 0;
 }
