@@ -1,0 +1,20 @@
+section.get-started {
+  background: var(--light-coral);
+  height: 375px;
+  color: var(--sacramento-green);
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: 30px;
+  position: relative;
+}
+section.get-started button {
+  border: var(--sacramento-green) solid 2px;
+  color: var(--sacramento-green);
+  margin: auto;
+}
+section.get-started img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

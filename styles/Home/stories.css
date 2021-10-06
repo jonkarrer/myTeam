@@ -1,0 +1,58 @@
+section.stories {
+  background: var(--jungle-green);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+section.stories .wrapper {
+  display: grid;
+  gap: 45px;
+}
+section.stories .bg-image-one {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.stories .bg-image-two {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+section.stories .headline span {
+  color: var(--rapture-blue);
+}
+section.stories article {
+  position: relative;
+  padding: 40px 0;
+  z-index: 10;
+  display: grid;
+  gap: 20px;
+}
+section.stories .quotes-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+}
+section.stories h3 {
+  color: var(--rapture-blue);
+}
+section.stories p {
+  z-index: 10;
+}
+
+section.stories .profile-container {
+  display: grid;
+  place-items: center;
+  gap: 5px;
+}
+section.stories .avatar {
+  border-radius: 50%;
+  border: var(--rapture-blue) solid 2px;
+  width: 70px;
+  margin-top: 10px;
+}

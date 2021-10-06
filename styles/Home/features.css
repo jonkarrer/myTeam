@@ -25,13 +25,11 @@ section.features .bg-image {
   right: 0;
   transform: translateX(50%);
 }
-
 section.features .feats {
   display: grid;
   gap: 50px;
   padding-top: 50px;
 }
-
 section.features article {
   display: grid;
   place-items: center;
@@ -40,4 +38,7 @@ section.features article {
 }
 section.features h3 {
   color: var(--light-coral);
+}
+section.features p {
+  color: var(--light-text);
 }

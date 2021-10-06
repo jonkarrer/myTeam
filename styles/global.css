@@ -1,6 +1,7 @@
 @import url("./fonts.css");
 @import url("./comps/button.css");
 @import url("./comps/mobile_header.css");
+@import url("./comps/footer.css");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +16,7 @@
   --jungle-green: #004047;
   --sacramento-green: #012f34;
   --dark-green: #002529;
+  --light-text: rgba(360, 360, 360, 0.6);
 }
 
 html {

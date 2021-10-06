@@ -1,0 +1,36 @@
+footer {
+  display: grid;
+  place-content: center;
+  gap: 30px;
+  text-align: center;
+  background: var(--dark-green);
+  padding: 70px 0;
+}
+footer .logo {
+  width: 96px;
+  margin: auto;
+}
+footer nav {
+  color: white;
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+  gap: 30px;
+}
+footer .addy {
+  color: var(--light-text);
+}
+footer .copyright {
+  color: var(--light-text);
+  display: grid;
+  gap: 10px;
+}
+footer .media-wrapper {
+  display: grid;
+  place-content: center;
+  grid-auto-flow: column;
+  gap: 15px;
+}
+footer .media-wrapper img {
+  width: 24px;
+}
