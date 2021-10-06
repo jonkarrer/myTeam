@@ -1,0 +1,31 @@
+section.clients {
+  background: var(--sacramento-green);
+  color: white;
+  text-align: center;
+
+  padding: 100px 24px;
+  position: relative;
+  overflow: hidden;
+
+  display: grid;
+  place-content: center;
+  gap: 50px;
+}
+
+section.clients .bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+section.clients .logo-container {
+  display: grid;
+  place-items: center;
+  gap: 50px;
+}
+section.clients .logo-container img {
+  width: 162px;
+}
+section.clients .logo-container img:last-child {
+  width: 100px;
+}
