@@ -68,13 +68,18 @@
 
         <article>
           <img class="avatar" src="../assets/avatar-nikita.jpg" alt="avatar" />
+
+          <h3>Nikita Marks</h3>
+          <i>Founder & CEO</i>
           <p>
             “It always amazes me how much talent there is in every corner of the
             globe.”
           </p>
-          <h3>Nikita Marks</h3>
-          <i>Founder & CEO</i>
-          <span id="change-article-button" class="plus-circle">
+          <div class="media-container">
+            <img src="../assets/icon-twitter.svg" alt="twitter icon" />
+            <img src="../assets/icon-linkedin.svg" alt="linkedin icon" />
+          </div>
+          <span id="cross-button" class="plus-circle">
             <img src="../assets/icon-cross.svg" alt="cross" />
           </span>
         </article>
@@ -85,52 +90,97 @@
             src="../assets/avatar-christian.jpg"
             alt="avatar"
           />
+
+          <h3>Cristian Duncan</h3>
+          <i>Co-founder & COO</i>
+
           <p>
             “Distributed teams required unique processes. You need to approach
             work in a new way.”
           </p>
-          <h3>Cristian Duncan</h3>
-          <i>Co-founder & COO</i>
+          <div class="media-container">
+            <img src="../assets/icon-twitter.svg" alt="twitter icon" />
+            <img src="../assets/icon-linkedin.svg" alt="linkedin icon" />
+          </div>
+          <span id="cross-button" class="plus-circle">
+            <img src="../assets/icon-cross.svg" alt="cross" />
+          </span>
         </article>
 
         <article>
           <img class="avatar" src="../assets/avatar-cruz.jpg" alt="avatar" />
+
+          <h3>Cruz Hamer</h3>
+          <i>Co-founder & CTO</i>
+
           <p>
             “Technology is at the forefront of enabling distributed teams.
             That's where we come in.”
           </p>
-          <h3>Cruz Hamer</h3>
-          <i>Co-founder & CTO</i>
+          <div class="media-container">
+            <img src="../assets/icon-twitter.svg" alt="twitter icon" />
+            <img src="../assets/icon-linkedin.svg" alt="linkedin icon" />
+          </div>
+          <span id="cross-button" class="plus-circle">
+            <img src="../assets/icon-cross.svg" alt="cross" />
+          </span>
         </article>
 
         <article>
           <img class="avatar" src="../assets/avatar-drake.jpg" alt="avatar" />
+
+          <h3>Drake Heaton</h3>
+          <i>Business Development Lead</i>
+
           <p>
             “Hiring similar people from similar backgrounds is a surefire way to
             stunt innovation.”
           </p>
-          <h3>Drake Heaton</h3>
-          <i>Business Development Lead</i>
+          <div class="media-container">
+            <img src="../assets/icon-twitter.svg" alt="twitter icon" />
+            <img src="../assets/icon-linkedin.svg" alt="linkedin icon" />
+          </div>
+          <span id="cross-button" class="plus-circle">
+            <img src="../assets/icon-cross.svg" alt="cross" />
+          </span>
         </article>
 
         <article>
           <img class="avatar" src="../assets/avatar-griffin.jpg" alt="avatar" />
+
+          <h3>Griffin Wise</h3>
+          <i>Lead Marketing</i>
+
           <p>
             “Unique perspectives shape unique products, which is what you need
             to survive these days.”
           </p>
-          <h3>Griffin Wise</h3>
-          <i>Lead Marketing</i>
+          <div class="media-container">
+            <img src="../assets/icon-twitter.svg" alt="twitter icon" />
+            <img src="../assets/icon-linkedin.svg" alt="linkedin icon" />
+          </div>
+          <span id="cross-button" class="plus-circle">
+            <img src="../assets/icon-cross.svg" alt="cross" />
+          </span>
         </article>
 
         <article>
           <img class="avatar" src="../assets/avatar-aden.jpg" alt="avatar" />
+
+          <h3>Aden Allan</h3>
+          <i>Head of Talent</i>
+
           <p>
             “Empowered teams create truly amazing products. Set the north star
             and let them follow it.”
           </p>
-          <h3>Aden Allan</h3>
-          <i>Head of Talent</i>
+          <div class="media-container">
+            <img src="../assets/icon-twitter.svg" alt="twitter icon" />
+            <img src="../assets/icon-linkedin.svg" alt="linkedin icon" />
+          </div>
+          <span id="cross-button" class="plus-circle">
+            <img src="../assets/icon-cross.svg" alt="cross" />
+          </span>
         </article>
       </div>
     </section>
@@ -157,5 +207,42 @@
       </div>
     </footer>
     <script src="../index.js"></script>
+    <script>
+      const crossButtons = document.querySelectorAll("#cross-button");
+
+      crossButtons.forEach((item) =>
+        item.addEventListener("click", (e) => changeArticle(e))
+      );
+
+      const changeArticle = (e) => {
+        const button = e.currentTarget;
+
+        const children = button.parentElement.children;
+        const img = children[0];
+        const career = children[2];
+        const quote = children[3];
+        const social = children[4];
+
+        if (button.dataset.toggle === "open") {
+          img.style.display = "block";
+          career.style.display = "block";
+          quote.style.display = "none";
+          social.style.display = "none";
+
+          button.style.transform = "translateY(50%)";
+          button.style.background = "var(--light-coral)";
+          button.dataset.toggle = "closed";
+        } else {
+          img.style.display = "none";
+          career.style.display = "none";
+          quote.style.display = "block";
+          social.style.display = "block";
+
+          button.style.transform = "translateY(50%) rotate(135deg)";
+          button.style.background = "var(--rapture-blue)";
+          button.dataset.toggle = "open";
+        }
+      };
+    </script>
   </body>
 </html>

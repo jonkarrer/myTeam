@@ -18,13 +18,15 @@ section.directors .bg-img-one {
   transform: translate(-50%, -50%);
 }
 section.directors article {
-  height: 252px;
+  height: 270px;
   background: var(--sacramento-green);
   position: relative;
 
   display: grid;
   place-content: center;
-  gap: 5px;
+  gap: 7px;
+
+  padding: 0 40px;
 }
 section.directors .avatar {
   width: 96px;
@@ -36,6 +38,8 @@ section.directors h3 {
   color: var(--rapture-blue);
 }
 section.directors .plus-circle {
+  --base: translateY(50%);
+
   background: var(--light-coral);
   display: grid;
   place-content: center;
@@ -48,8 +52,17 @@ section.directors .plus-circle {
   left: 0;
   right: 0;
   margin: auto;
-  transform: translateY(50%);
+  transform: var(--base);
+
+  transition: transform 0.3s ease;
 }
 section.directors p {
   display: none;
+}
+section.directors .media-container {
+  display: none;
+  margin-top: 10px;
+}
+section.directors .media-container img {
+  margin: 0 10px;
 }
