@@ -1,17 +1,22 @@
 section.directors {
-  padding: 120px 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
   position: relative;
   overflow: hidden;
+
   background: var(--jungle-green);
 }
 section.directors h2 {
   text-align: center;
   color: white;
+
   margin-bottom: 50px;
 }
 section.directors .wrapper {
   display: grid;
   gap: 50px;
+
   color: white;
   text-align: center;
 }
@@ -19,6 +24,7 @@ section.directors .bg-img-one {
   position: absolute;
   top: 0;
   left: 0;
+
   transform: translate(-50%, -50%);
 }
 section.directors .bg-img-two {
@@ -39,8 +45,10 @@ section.directors article {
 }
 section.directors .avatar {
   width: 96px;
+
   border-radius: 50%;
   border: var(--rapture-blue) solid 2px;
+
   margin: auto;
 }
 section.directors h3 {
@@ -49,11 +57,14 @@ section.directors h3 {
 section.directors .plus-circle {
   --base: translateY(50%);
 
-  background: var(--light-coral);
   display: grid;
   place-content: center;
+
+  background: var(--light-coral);
+
   width: 56px;
   height: 56px;
+
   border-radius: 50%;
 
   position: absolute;
@@ -61,8 +72,8 @@ section.directors .plus-circle {
   left: 0;
   right: 0;
   margin: auto;
-  transform: var(--base);
 
+  transform: var(--base);
   transition: transform 0.3s ease;
 }
 section.directors p {
@@ -77,22 +88,15 @@ section.directors .media-container img {
 }
 
 @media (min-width: 768px) {
-  section.directors {
-    padding: 120px 100px;
-  }
   section.directors .wrapper {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    color: white;
-    text-align: center;
   }
   section.directors .bg-img-one {
     transform: translate(-50%, 0);
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1256px) {
   section.directors .wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }

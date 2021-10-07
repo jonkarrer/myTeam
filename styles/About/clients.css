@@ -1,21 +1,23 @@
 section.clients {
+  display: grid;
+  place-content: center;
+  gap: 50px;
+
   background: var(--sacramento-green);
   color: white;
   text-align: center;
 
-  padding: 100px 24px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
   position: relative;
   overflow: hidden;
-
-  display: grid;
-  place-content: center;
-  gap: 50px;
 }
-
 section.clients .bg-image {
   position: absolute;
   top: 0;
   left: 0;
+
   transform: translate(-50%, -50%);
 }
 section.clients .logo-container {
@@ -32,15 +34,9 @@ section.clients .logo-container img:last-child {
 
 @media (min-width: 768px) {
   section.clients {
-    background: var(--sacramento-green);
-    color: white;
-    text-align: center;
     grid-template-rows: 1fr 1fr;
-    gap: 50px;
-
     place-content: initial;
   }
-
   section.clients .bg-image {
     transform: translate(0, -50%);
   }
@@ -62,9 +58,6 @@ section.clients .logo-container img:last-child {
 }
 
 @media (min-width: 1024px) {
-  section.clients .bg-image {
-    transform: translate(0, -50%);
-  }
   section.clients .logo-container img {
     width: 150px;
   }

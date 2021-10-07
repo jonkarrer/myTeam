@@ -49,10 +49,13 @@ section.splash span img {
 @media (min-width: 1026px) {
   section.splash {
     flex: 1;
+
+    padding-right: 0;
   }
   section.splash .wrapper {
     padding-top: 0;
     place-content: initial;
+    gap: 10px;
     width: auto;
   }
   section.splash .headline {
