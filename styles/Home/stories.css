@@ -48,7 +48,6 @@ section.stories h3 {
 section.stories p {
   z-index: 10;
 }
-
 section.stories .profile-container {
   display: grid;
   place-items: center;
@@ -70,10 +69,8 @@ section.stories .avatar {
 
 @media (min-width: 1024px) {
   section.stories .articles-container {
-    display: grid;
     grid-auto-flow: column;
     gap: 50px;
-    margin-top: 50px;
   }
   section.stories .headline {
     width: 600px;

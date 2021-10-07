@@ -1,7 +1,10 @@
 section.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background: var(--sacramento-green);
   color: white;
-  padding: 60px 24px;
+
   position: relative;
   overflow: hidden;
 }
@@ -11,23 +14,27 @@ section.features .wrapper {
 }
 section.features .headline {
   width: 240px;
+
   display: grid;
   gap: 40px;
 }
 section.features .line {
   width: 50px;
   height: 4px;
+
   background: var(--light-coral);
 }
 section.features .bg-image {
   position: absolute;
   top: 0;
   right: 0;
+
   transform: translateX(50%);
 }
 section.features .feats {
   display: grid;
   gap: 50px;
+
   padding-top: 50px;
 }
 section.features article {
@@ -48,9 +55,6 @@ section.features p {
 }
 
 @media (min-width: 768px) {
-  section.features {
-    padding: 60px 100px;
-  }
   section.features .headline {
     width: 500px;
   }
@@ -68,9 +72,8 @@ section.features p {
 
 @media (min-width: 1024px) {
   section.features {
-    padding: 100px 100px;
-    background: var(--sacramento-green);
-    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   section.features .wrapper {
     display: flex;
@@ -78,26 +81,14 @@ section.features p {
     justify-content: space-between;
     gap: 0px;
   }
-  section.features .headline {
-    width: 500px;
-  }
   section.features .bg-image {
-    position: absolute;
     top: auto;
     bottom: 0;
-    right: 0;
-    transform: translateX(50%);
   }
   section.features .feats {
-    display: grid;
-    gap: 50px;
     padding-top: 0px;
   }
   section.features article {
-    grid-auto-flow: column;
-    align-items: center;
     gap: 30px;
-
-    text-align: left;
   }
 }

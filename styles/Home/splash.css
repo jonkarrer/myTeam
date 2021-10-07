@@ -83,12 +83,12 @@ section.splash .img-bottom {
     top: -40px;
     left: 20px;
   }
-
   section.splash .img-bottom {
     left: auto;
     margin-right: 10%;
   }
 }
+
 @media (min-width: 1258px) {
   section.splash .img-left {
     display: block;

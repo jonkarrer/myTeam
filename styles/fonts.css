@@ -52,11 +52,6 @@ p {
     font-size: 18px;
     line-height: 28px;
   }
-  p.small {
-    font-size: 15px;
-    line-height: 25px;
-    font-weight: 600;
-  }
 }
 
 @media (min-width: 1400px) {
