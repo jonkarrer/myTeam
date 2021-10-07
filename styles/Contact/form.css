@@ -1,6 +1,6 @@
 section.form {
   margin-top: 60px;
-  padding-bottom: 90px;
+  padding-bottom: 100px;
   position: relative;
   overflow: hidden;
 }
@@ -27,7 +27,7 @@ textarea {
   border-bottom: white solid 1px;
   padding: 12px 8px;
 }
-button {
+form button {
   background: white;
   color: var(--sacramento-green);
 }
@@ -35,5 +35,5 @@ section.form img {
   position: absolute;
   bottom: 0;
   right: 0;
-  transform: translate(50%, 50%);
+  transform: translate(50%, 0);
 }
