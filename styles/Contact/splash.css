@@ -44,3 +44,24 @@ section.splash span img {
     text-align: left;
   }
 }
+
+@media (min-width: 1026px) {
+  section.splash {
+    flex: 1;
+  }
+  section.splash .wrapper {
+    padding-top: 0;
+    place-content: initial;
+    width: auto;
+  }
+  section.splash .headline {
+    text-align: left;
+    gap: 0px;
+  }
+  section.splash h1 {
+    font-size: 64px;
+  }
+  section.splash h2 {
+    font-size: 32px;
+  }
+}

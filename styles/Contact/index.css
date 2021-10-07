@@ -1,2 +1,11 @@
 @import url("./splash.css");
 @import url("./form.css");
+
+@media (min-width: 1026px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+  }
+}

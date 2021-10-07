@@ -21,6 +21,11 @@ input {
   padding: 12px 8px;
   color: white;
 }
+:focus {
+  outline: none;
+  border: none;
+  border-bottom: var(--rapture-blue) solid 2px;
+}
 textarea {
   background: none;
   border: none;
@@ -36,4 +41,38 @@ section.form img {
   bottom: 0;
   right: 0;
   transform: translate(50%, 0);
+}
+
+@media (min-width: 1026px) {
+  section.form {
+    margin: auto;
+    padding-bottom: 0px;
+
+    flex: 1;
+
+    display: grid;
+  }
+  form {
+    display: grid;
+
+    font-size: 18px;
+  }
+  ::placeholder {
+    color: var(--light-text);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  input {
+    padding: 20px 10px;
+    font-size: 18px;
+  }
+  textarea {
+    padding: 20px 10px;
+  }
+  section.form img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 0);
+  }
 }
