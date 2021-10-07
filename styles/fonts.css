@@ -29,8 +29,13 @@ p {
     line-height: 64px;
   }
 }
-
-@media (min-width: 1028px) {
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+@media (min-width: 1258px) {
   h1 {
     font-size: 100px;
     line-height: 100px;

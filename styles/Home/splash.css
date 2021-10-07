@@ -1,6 +1,8 @@
 section.splash {
   text-align: center;
   position: relative;
+  display: grid;
+  place-content: center;
   height: 585px;
 }
 section.splash .wrapper {
@@ -8,8 +10,6 @@ section.splash .wrapper {
   place-items: center;
   gap: 24px;
   color: white;
-
-  padding-top: 35%;
 }
 section.splash h1 {
   width: 250px;
@@ -17,7 +17,10 @@ section.splash h1 {
 section.splash h1 span {
   color: var(--light-coral);
 }
-section.splash img {
+section.splash .img-left {
+  display: none;
+}
+section.splash .img-bottom {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -25,18 +28,58 @@ section.splash img {
 
 @media (min-width: 768px) {
   section.splash {
-    height: calc(100vh - 80px);
+    height: 100vh;
   }
   section.splash .wrapper {
     margin: auto;
     width: 480px;
-    padding-top: 20%;
   }
   section.splash h1 {
     width: 350px;
   }
-  section.splash img {
+  section.splash .img-bottom {
     left: 0;
     margin: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  section.splash {
+    height: 100vh;
+
+    place-content: initial;
+  }
+  section.splash .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    gap: 0px;
+  }
+  section.splash h1 {
+    flex: 1;
+    max-width: 600px;
+    text-align: left;
+  }
+  section.splash p {
+    text-align: left;
+    width: 450px;
+  }
+  section.splash .para-container {
+    position: relative;
+  }
+  section.splash .line {
+    width: 50px;
+    height: 3px;
+    background: var(--rapture-blue);
+    position: absolute;
+    top: -80px;
+    left: 0;
+  }
+
+  section.splash .img-bottom {
+    left: auto;
+    margin-right: 10%;
   }
 }

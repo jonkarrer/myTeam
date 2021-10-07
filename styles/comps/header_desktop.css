@@ -7,10 +7,15 @@ header.desktop {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
 
-    margin-top: 50px;
-    padding: 0 44px;
+    width: 90%;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    margin: auto;
+
     color: white;
     font-size: 18px;
     font-weight: 600;
@@ -20,5 +25,13 @@ header.desktop {
     grid-auto-flow: column;
     gap: 40px;
     align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  header.desktop {
+    width: 86%;
+  }
+  header.desktop nav {
+    gap: 50px;
   }
 }

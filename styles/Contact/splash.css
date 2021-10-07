@@ -28,6 +28,7 @@ section.splash span img {
     width: 515px;
     gap: 40px;
     place-content: center;
+    margin: auto;
   }
   section.splash .headline {
     text-align: center;

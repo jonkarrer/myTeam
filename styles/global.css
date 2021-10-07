@@ -27,10 +27,14 @@ html {
 
 body {
   position: relative;
+  max-width: 1500px;
+  margin: auto;
 }
 
 section {
   padding: 0 24px;
+  max-width: 1500px;
+  margin: auto;
 }
 
 a {

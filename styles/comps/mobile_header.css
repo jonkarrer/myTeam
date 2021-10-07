@@ -8,6 +8,7 @@ header.mobile {
   padding: 0 24px;
   color: white;
   z-index: 80;
+  position: absolute;
 }
 header.mobile .logo {
   width: 128px;
