@@ -31,7 +31,6 @@ section.splash img {
 @media (min-width: 1024px) {
   section.splash {
     height: 556px;
-    padding: 0px 7%;
   }
   section.splash article {
     display: flex;

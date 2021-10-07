@@ -45,6 +45,6 @@ section.get-started img {
 
 @media (min-width: 1024px) {
   section.get-started .wrapper {
-    width: 80%;
+    width: 75%;
   }
 }
