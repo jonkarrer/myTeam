@@ -47,8 +47,6 @@ section.splash .img-bottom {
 
 @media (min-width: 1024px) {
   section.splash {
-    height: 100vh;
-
     place-content: initial;
   }
   section.splash .wrapper {

@@ -1,6 +1,9 @@
 section.splash {
   color: white;
-  padding: 120px 24px;
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
 }
@@ -18,9 +21,42 @@ section.splash img {
 
 @media (min-width: 768px) {
   section.splash {
-    padding: 120px 160px;
+    height: 556px;
   }
   section.splash img {
     transform: translate(50%, 0);
+  }
+}
+
+@media (min-width: 1024px) {
+  section.splash {
+    height: 556px;
+    padding: 0px 7%;
+  }
+  section.splash article {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+    text-align: left;
+  }
+  section.splash h1 {
+    font-size: 64px;
+    flex: 1;
+  }
+  section.splash div {
+    display: grid;
+    gap: 40px;
+    width: 600px;
+  }
+  section.splash .line {
+    width: 50px;
+    height: 4px;
+    background: lightcoral;
+  }
+}
+@media (min-width: 1256px) {
+  section.splash div {
+    width: 800px;
   }
 }

@@ -37,6 +37,8 @@ section.clients .logo-container img:last-child {
     text-align: center;
     grid-template-rows: 1fr 1fr;
     gap: 50px;
+
+    place-content: initial;
   }
 
   section.clients .bg-image {
@@ -46,8 +48,9 @@ section.clients .logo-container img:last-child {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
-    padding: 0 44px;
+
+    width: 90%;
+    margin: auto;
     gap: 0px;
   }
   section.clients .logo-container img {
@@ -55,5 +58,17 @@ section.clients .logo-container img:last-child {
   }
   section.clients .logo-container img:last-child {
     width: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  section.clients .bg-image {
+    transform: translate(0, -50%);
+  }
+  section.clients .logo-container img {
+    width: 150px;
+  }
+  section.clients .logo-container img:last-child {
+    width: 100px;
   }
 }

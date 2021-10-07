@@ -43,18 +43,7 @@ section.get-started img {
 }
 
 @media (min-width: 1024px) {
-  section.get-started {
-    height: 200px;
-    display: flex;
-    align-items: center;
-    gap: 0px;
-  }
   section.get-started .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 80%;
-    margin: auto;
-    gap: 0px;
   }
 }

@@ -19,6 +19,8 @@ header.desktop {
     color: white;
     font-size: 18px;
     font-weight: 600;
+
+    z-index: 100;
   }
   header.desktop nav {
     display: grid;

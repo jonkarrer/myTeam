@@ -91,3 +91,9 @@ section.directors .media-container img {
     transform: translate(-50%, 0);
   }
 }
+
+@media (min-width: 1024px) {
+  section.directors .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
