@@ -22,3 +22,21 @@ section.splash img {
   bottom: 0;
   right: 0;
 }
+
+@media (min-width: 768px) {
+  section.splash {
+    height: calc(100vh - 80px);
+  }
+  section.splash .wrapper {
+    margin: auto;
+    width: 480px;
+    padding-top: 20%;
+  }
+  section.splash h1 {
+    width: 350px;
+  }
+  section.splash img {
+    left: 0;
+    margin: auto;
+  }
+}

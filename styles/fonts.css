@@ -23,6 +23,13 @@ p {
   font-weight: 600;
 }
 
+@media (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
+
 @media (min-width: 1028px) {
   h1 {
     font-size: 100px;

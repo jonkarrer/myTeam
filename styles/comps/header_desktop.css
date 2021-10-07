@@ -1,0 +1,24 @@
+header.desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  header.desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    margin-top: 50px;
+    padding: 0 24px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  header.desktop nav {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+    align-items: center;
+  }
+}

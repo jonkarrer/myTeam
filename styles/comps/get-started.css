@@ -19,3 +19,12 @@ section.get-started img {
   bottom: -25px;
   left: 0;
 }
+
+@media (min-width: 768px) {
+  section.get-started {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+}

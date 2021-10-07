@@ -3,6 +3,7 @@
 @import url("./comps/mobile_header.css");
 @import url("./comps/footer.css");
 @import url("./comps/get-started.css");
+@import url("./comps/header_desktop.css");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -35,4 +36,10 @@ section {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 0 100px;
+  }
 }

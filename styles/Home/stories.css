@@ -60,3 +60,10 @@ section.stories .avatar {
   width: 70px;
   margin-top: 10px;
 }
+
+@media (min-width: 768px) {
+  section.stories .headline {
+    width: 480px;
+    margin: auto;
+  }
+}

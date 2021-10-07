@@ -34,3 +34,11 @@ footer .media-wrapper {
 footer .media-wrapper img {
   width: 24px;
 }
+
+@media (min-width: 768px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: none;
+  }
+}

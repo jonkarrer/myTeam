@@ -36,9 +36,32 @@ section.features article {
   text-align: center;
   gap: 8px;
 }
+section.features article div {
+  display: grid;
+  gap: 8px;
+}
 section.features h3 {
   color: var(--light-coral);
 }
 section.features p {
   color: var(--light-text);
+}
+
+@media (min-width: 768px) {
+  section.features {
+    padding: 60px 100px;
+  }
+  section.features .headline {
+    width: 500px;
+  }
+  section.features .feats {
+    width: 575px;
+  }
+  section.features article {
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 20px;
+
+    text-align: left;
+  }
 }
