@@ -18,6 +18,7 @@ section.get-started button {
   border: var(--sacramento-green) solid 2px;
   color: var(--sacramento-green);
   margin: auto;
+  z-index: 30;
 }
 section.get-started img {
   position: absolute;

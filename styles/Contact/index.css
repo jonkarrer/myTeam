@@ -5,6 +5,7 @@ main {
   position: relative;
   height: auto;
   overflow: hidden;
+  padding-top: 80px;
 }
 main .bg-img-one {
   position: absolute;
@@ -18,6 +19,7 @@ main .bg-img-one {
     display: flex;
     align-items: center;
 
+    padding-top: 0;
     height: 100vh;
   }
   main .bg-img-one {

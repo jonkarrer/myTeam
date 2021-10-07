@@ -10,7 +10,7 @@ footer {
 }
 footer .wrapper {
   display: grid;
-  place-content: center;
+
   gap: 40px;
 }
 footer .logo {
