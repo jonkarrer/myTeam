@@ -1,11 +1,26 @@
 @import url("./splash.css");
 @import url("./form.css");
 
+main {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+main .bg-img-one {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+}
+
 @media (min-width: 1026px) {
   main {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
     height: 100vh;
+  }
+  main .bg-img-one {
+    transform: translate(50%, 0);
   }
 }

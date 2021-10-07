@@ -36,12 +36,6 @@ form button {
   background: white;
   color: var(--sacramento-green);
 }
-section.form img {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: translate(50%, 0);
-}
 
 @media (min-width: 1026px) {
   section.form {
@@ -53,8 +47,6 @@ section.form img {
     display: grid;
   }
   form {
-    display: grid;
-
     font-size: 18px;
   }
   ::placeholder {
@@ -63,16 +55,10 @@ section.form img {
     font-weight: 600;
   }
   input {
-    padding: 20px 10px;
+    padding: 15px 10px;
     font-size: 18px;
   }
   textarea {
-    padding: 20px 10px;
-  }
-  section.form img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: translate(50%, 0);
+    padding: 15px 10px;
   }
 }

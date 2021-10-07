@@ -1,10 +1,17 @@
 footer {
-  display: grid;
-  place-content: center;
   gap: 30px;
   text-align: center;
   background: var(--dark-green);
-  padding: 70px 0;
+  height: 435px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .wrapper {
+  display: grid;
+  place-content: center;
+  gap: 40px;
 }
 footer .logo {
   width: 96px;
@@ -16,6 +23,9 @@ footer nav {
   grid-auto-flow: column;
   place-content: center;
   gap: 30px;
+}
+footer nav a:hover {
+  color: var(--light-coral);
 }
 footer .addy {
   color: var(--light-text);
@@ -37,8 +47,51 @@ footer .media-wrapper img {
 
 @media (min-width: 768px) {
   footer {
-    display: grid;
+    height: 271px;
+  }
+  footer .wrapper {
     grid-template-columns: 1fr 1fr;
-    place-content: none;
+  }
+  footer .logo {
+    width: 110px;
+  }
+  footer nav {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 1024px) {
+  footer {
+    height: 196px;
+    gap: 0;
+  }
+  footer .wrapper {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  footer .logo {
+    width: 160px;
+    grid-column: 1;
+  }
+  footer .addy {
+    grid-column: 2;
+    grid-row: 1/3;
+    align-content: center;
+    justify-self: start;
+    text-align: left;
+
+    display: grid;
+    gap: 5px;
+  }
+  footer .copyright {
+    grid-column: 3;
+    grid-row: 1/3;
+    align-content: flex-start;
+    justify-self: end;
+
+    display: grid;
+    gap: 68px;
+    padding-right: 20%;
   }
 }
