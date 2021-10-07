@@ -1,0 +1,23 @@
+section.splash .wrapper {
+  padding-top: 25%;
+  color: white;
+  display: grid;
+  gap: 40px;
+}
+section.splash .headline {
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}
+section.splash h2 {
+  color: var(--light-coral);
+}
+section.splash span {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 30px;
+}
+section.splash span img {
+  width: 72px;
+}

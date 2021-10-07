@@ -1,0 +1,39 @@
+section.form {
+  margin-top: 60px;
+  padding-bottom: 90px;
+  position: relative;
+  overflow: hidden;
+}
+form {
+  display: grid;
+  gap: 20px;
+  font-size: 15px;
+}
+::placeholder {
+  color: var(--light-text);
+  font-size: 15px;
+  font-weight: 600;
+}
+input {
+  background: none;
+  border: none;
+  border-bottom: white solid 1px;
+  padding: 12px 8px;
+  color: white;
+}
+textarea {
+  background: none;
+  border: none;
+  border-bottom: white solid 1px;
+  padding: 12px 8px;
+}
+button {
+  background: white;
+  color: var(--sacramento-green);
+}
+section.form img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(50%, 50%);
+}
