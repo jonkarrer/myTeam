@@ -4,7 +4,11 @@ section.directors {
   overflow: hidden;
   background: var(--jungle-green);
 }
-
+section.directors h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
 section.directors .wrapper {
   display: grid;
   gap: 50px;
@@ -70,4 +74,20 @@ section.directors .media-container {
 }
 section.directors .media-container img {
   margin: 0 10px;
+}
+
+@media (min-width: 768px) {
+  section.directors {
+    padding: 120px 100px;
+  }
+  section.directors .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    color: white;
+    text-align: center;
+  }
+  section.directors .bg-img-one {
+    transform: translate(-50%, 0);
+  }
 }

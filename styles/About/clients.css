@@ -29,3 +29,31 @@ section.clients .logo-container img {
 section.clients .logo-container img:last-child {
   width: 100px;
 }
+
+@media (min-width: 768px) {
+  section.clients {
+    background: var(--sacramento-green);
+    color: white;
+    text-align: center;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+  }
+
+  section.clients .bg-image {
+    transform: translate(0, -50%);
+  }
+  section.clients .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 0 44px;
+    gap: 0px;
+  }
+  section.clients .logo-container img {
+    width: 100px;
+  }
+  section.clients .logo-container img:last-child {
+    width: 80px;
+  }
+}

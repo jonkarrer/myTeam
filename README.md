@@ -1,4 +1,4 @@
-# Frontend Mentor - myteam website solution
+# Frontend Mentor - myteam
 
 This is a solution to the [myteam website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/myteam-multipage-website-mxlEauvW). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 

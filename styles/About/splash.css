@@ -15,3 +15,12 @@ section.splash img {
   right: 0;
   transform: translate(50%, 50%);
 }
+
+@media (min-width: 768px) {
+  section.splash {
+    padding: 120px 160px;
+  }
+  section.splash img {
+    transform: translate(50%, 0);
+  }
+}
