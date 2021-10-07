@@ -20,6 +20,10 @@ section.get-started button {
   margin: auto;
   z-index: 30;
 }
+section.get-started button:hover {
+  background: var(--sacramento-green);
+  color: white;
+}
 section.get-started img {
   position: absolute;
   bottom: -25px;

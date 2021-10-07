@@ -38,11 +38,15 @@ footer .copyright {
 footer .media-wrapper {
   display: grid;
   place-content: center;
+  align-items: center;
   grid-auto-flow: column;
-  gap: 15px;
+  gap: 20px;
 }
 footer .media-wrapper img {
   width: 24px;
+}
+footer .media-wrapper img:hover {
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {

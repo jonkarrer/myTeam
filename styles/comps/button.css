@@ -14,3 +14,7 @@ button.dark {
   color: var(--sacramento-green);
   font-size: 18px;
 }
+
+button:hover {
+  cursor: pointer;
+}

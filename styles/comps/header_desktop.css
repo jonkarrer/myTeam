@@ -29,9 +29,10 @@ header.desktop {
     align-items: center;
   }
 }
+
 @media (min-width: 1024px) {
   header.desktop {
-    width: 76%;
+    width: 78%;
   }
   header.desktop nav {
     gap: 50px;
