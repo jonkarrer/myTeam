@@ -65,3 +65,39 @@ section.features p {
     text-align: left;
   }
 }
+
+@media (min-width: 1024px) {
+  section.features {
+    padding: 100px 100px;
+    background: var(--sacramento-green);
+    color: white;
+  }
+  section.features .wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0px;
+  }
+  section.features .headline {
+    width: 500px;
+  }
+  section.features .bg-image {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    transform: translateX(50%);
+  }
+  section.features .feats {
+    display: grid;
+    gap: 50px;
+    padding-top: 0px;
+  }
+  section.features article {
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 30px;
+
+    text-align: left;
+  }
+}

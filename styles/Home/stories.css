@@ -67,3 +67,21 @@ section.stories .avatar {
     margin: auto;
   }
 }
+
+@media (min-width: 1024px) {
+  section.stories .articles-container {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    margin-top: 50px;
+  }
+  section.stories .headline {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1258px) {
+  section.stories .headline {
+    width: 1000px;
+  }
+}

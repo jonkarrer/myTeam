@@ -2,12 +2,17 @@ section.get-started {
   background: var(--light-coral);
   height: 302px;
   color: var(--sacramento-green);
+
   display: grid;
-  place-content: center;
+  place-items: center;
   text-align: center;
-  gap: 20px;
+
   position: relative;
   overflow: hidden;
+}
+section.get-started .wrapper {
+  display: grid;
+  gap: 20px;
 }
 section.get-started button {
   border: var(--sacramento-green) solid 2px;
@@ -23,8 +28,33 @@ section.get-started img {
 @media (min-width: 768px) {
   section.get-started {
     height: 200px;
+  }
+  section.get-started .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    margin: auto;
+    gap: 0px;
+  }
+  section.get-started button {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  section.get-started {
+    height: 200px;
     display: flex;
     align-items: center;
+    gap: 0px;
+  }
+  section.get-started .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
     gap: 0px;
   }
 }

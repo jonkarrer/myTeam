@@ -1,9 +1,11 @@
 section.splash {
-  text-align: center;
-  position: relative;
   display: grid;
   place-content: center;
+
   height: 585px;
+
+  text-align: center;
+  position: relative;
 }
 section.splash .wrapper {
   display: grid;
@@ -81,5 +83,16 @@ section.splash .img-bottom {
   section.splash .img-bottom {
     left: auto;
     margin-right: 10%;
+  }
+}
+@media (min-width: 1280px) {
+  section.splash .img-left {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-60%, 0);
   }
 }
